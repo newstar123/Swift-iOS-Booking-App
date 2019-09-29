@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="05y-Z9-yOm" userLabel="TopSpacingView">
+                                <rect key="frame" x="40" y="0.0" width="334" height="117.66666666666667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QorumLogo" translatesAutoresizingMaskIntoConstraints="NO" id="zrY-fO-Z1Q">
+                                <rect key="frame" x="165.66666666666666" y="117.66666666666666" width="82.666666666666686" height="95.666666666666657"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zrY-fO-Z1Q" secondAttribute="height" multiplier="32:37" id="UNR-s8-Fo7"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mxf-Hh-ZSh" userLabel="TitleSpacingView">
+                                <rect key="frame" x="40" y="213.33333333333334" width="334" height="22.333333333333314"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="QorumTitle" translatesAutoresizingMaskIntoConstraints="NO" id="OcX-6s-MPR">
+                                <rect key="frame" x="77.666666666666686" y="235.66666666666663" width="258.66666666666663" height="32.333333333333371"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="OcX-6s-MPR" secondAttribute="height" multiplier="8:1" id="XqC-23-rnW"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.019607853144407272" green="0.050980336964130402" blue="0.14509806036949158" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="OcX-6s-MPR" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="1dK-s1-i0V"/>
+                            <constraint firstItem="mxf-Hh-ZSh" firstAttribute="top" secondItem="zrY-fO-Z1Q" secondAttribute="bottom" id="KBC-BE-NLJ"/>
+                            <constraint firstItem="zrY-fO-Z1Q" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="KhL-IQ-APY"/>
+                            <constraint firstItem="05y-Z9-yOm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="PrO-o6-vnP"/>
+                            <constraint firstItem="05y-Z9-yOm" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Puv-ZH-zgD"/>
+                            <constraint firstAttribute="width" secondItem="zrY-fO-Z1Q" secondAttribute="width" multiplier="5" id="ReX-Sg-hJs"/>
+                            <constraint firstItem="mxf-Hh-ZSh" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="0.03" id="X1g-88-W7S"/>
+                            <constraint firstItem="zrY-fO-Z1Q" firstAttribute="top" secondItem="05y-Z9-yOm" secondAttribute="bottom" id="ZCh-ir-ime"/>
+                            <constraint firstItem="mxf-Hh-ZSh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="40" id="cmg-lJ-LZ1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="mxf-Hh-ZSh" secondAttribute="trailing" constant="40" id="ePW-p6-Yzh"/>
+                            <constraint firstItem="OcX-6s-MPR" firstAttribute="top" secondItem="mxf-Hh-ZSh" secondAttribute="bottom" id="f1F-BE-HkE"/>
+                            <constraint firstAttribute="width" secondItem="OcX-6s-MPR" secondAttribute="width" multiplier="1.6" id="isp-hc-Yni"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="05y-Z9-yOm" secondAttribute="trailing" constant="40" id="oIW-wh-165"/>
+                            <constraint firstAttribute="height" secondItem="05y-Z9-yOm" secondAttribute="height" multiplier="6.25" id="uXd-iY-weR"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="QorumLogo" width="42" height="49"/>
+        <image name="QorumTitle" width="133" height="16"/>
+    </resources>
+</document>

@@ -1,0 +1,163 @@
+{
+    "billItems" : [
+                   {
+                   "name" : "Tres Leches",
+                   "total_discount" : 0,
+                   "id" : 7130,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.840Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.938Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 299
+                   },
+                   {
+                   "name" : "32 oz Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7131,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.842Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.941Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 199
+                   },
+                   {
+                   "name" : "Chips & Salsa",
+                   "total_discount" : 0,
+                   "id" : 7132,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.844Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.943Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 199
+                   },
+                   {
+                   "name" : "Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7133,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.847Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.947Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7134,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.849Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.949Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Bottle Beverage",
+                   "total_discount" : 0,
+                   "id" : 7135,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.851Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.951Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Sweet Tortilla",
+                   "total_discount" : 0,
+                   "id" : 7136,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.853Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.953Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 79
+                   },
+                   {
+                   "name" : "Pork Nachos",
+                   "total_discount" : 0,
+                   "id" : 7137,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.834Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:20:02.549Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 679
+                   },
+                   {
+                   "name" : "SNG Chip Ench",
+                   "total_discount" : 0,
+                   "id" : 7138,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.836Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:20:02.554Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 579
+                   },
+                   {
+                   "name" : "SNG Chkn Ench",
+                   "total_discount" : 0,
+                   "id" : 7139,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:20:10.838Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:20:02.560Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 499
+                   }
+                   ],
+    
+    "totals" : {
+        "service_charges" : 0,
+        "updated_at" : "2017-12-08T15:20:10.881Z",
+        "undiscounted_sub_total" : 3040,
+        "num_free_drinks_used" : 0,
+        "paid" : 0,
+        "other_charges" : 0,
+        "tax" : 239,
+        "promotion_discount" : 456,
+        "approximateTax" : 203,
+        "id" : 3132,
+        "checkin_id" : 3975,
+        "sub_total" : 3040,
+        "created_at" : "2017-12-08T15:13:56.927Z",
+        "total" : 3279,
+        "due" : 3279,
+        "freedrinks_discount" : 0
+    },
+    
+    "ridesafeDiscountStatus" : {
+        "time" : {
+            "timePastFromFirstOrderInSecs" : 4920,
+            "ridesafeMinTimeSecs" : 0,
+            "timeLeftToRideDiscount" : 480
+        },
+        "isFreeRideAvailable" : false,
+        "minSpendToRideDiscount" : 5400
+    },
+    
+    "rideDiscount" : {
+        "discount_value" : 10
+    },
+    
+    "exact_gratuity" : null,
+    
+    "gratuity" : 18,
+    
+    "discount" : 15
+}

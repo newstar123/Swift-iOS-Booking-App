@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13770" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13770"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="ESI-58-EZb" customClass="SettingsNibCell" customModule="Qorum" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="626" height="47"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="626" height="47"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uDE-jT-gIZ">
+                        <rect key="frame" x="0.0" y="0.0" width="626" height="1"/>
+                        <color key="backgroundColor" red="0.43529411764705883" green="0.41568627450980389" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="Pyh-X3-nCW"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M24-51-P5t" userLabel="SeparatorView">
+                        <rect key="frame" x="0.0" y="46" width="626" height="1"/>
+                        <color key="backgroundColor" red="0.43529411764705883" green="0.41568627450980389" blue="0.41960784313725491" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="iOB-oV-vzG"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2oZ-vv-yMW">
+                        <rect key="frame" x="24" y="13.5" width="42" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gIQ-4R-vyq">
+                        <rect key="frame" x="552" y="8" width="51" height="31"/>
+                    </switch>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="2oZ-vv-yMW" firstAttribute="leading" secondItem="ESI-58-EZb" secondAttribute="leading" constant="24" id="6hz-oC-Xyp"/>
+                <constraint firstItem="M24-51-P5t" firstAttribute="leading" secondItem="ESI-58-EZb" secondAttribute="leading" id="7CD-2r-TX3"/>
+                <constraint firstItem="uDE-jT-gIZ" firstAttribute="top" secondItem="ESI-58-EZb" secondAttribute="top" id="BQ7-gt-gXB"/>
+                <constraint firstItem="uDE-jT-gIZ" firstAttribute="leading" secondItem="ESI-58-EZb" secondAttribute="leading" id="CUa-0W-zx5"/>
+                <constraint firstAttribute="trailing" secondItem="gIQ-4R-vyq" secondAttribute="trailing" constant="25" id="G7M-Od-r8y"/>
+                <constraint firstAttribute="trailing" secondItem="uDE-jT-gIZ" secondAttribute="trailing" id="LgX-Pv-hZ2"/>
+                <constraint firstItem="gIQ-4R-vyq" firstAttribute="centerY" secondItem="ESI-58-EZb" secondAttribute="centerY" id="Z4v-eP-yzj"/>
+                <constraint firstAttribute="bottom" secondItem="M24-51-P5t" secondAttribute="bottom" id="fa1-oc-Fm1"/>
+                <constraint firstItem="2oZ-vv-yMW" firstAttribute="centerY" secondItem="ESI-58-EZb" secondAttribute="centerY" id="rGZ-KQ-89n"/>
+                <constraint firstAttribute="trailing" secondItem="M24-51-P5t" secondAttribute="trailing" id="s5G-IP-o00"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="PAU-pP-asi"/>
+            <connections>
+                <outlet property="textLabel" destination="2oZ-vv-yMW" id="nwb-oi-SPK"/>
+                <outlet property="toggle" destination="gIQ-4R-vyq" id="pCJ-uN-cGl"/>
+            </connections>
+            <point key="canvasLocation" x="-141" y="29"/>
+        </collectionViewCell>
+    </objects>
+</document>

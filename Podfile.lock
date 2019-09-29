@@ -1,0 +1,304 @@
+PODS:
+  - Alamofire (4.7.3)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - Branch (0.25.8):
+    - Branch/Core (= 0.25.8)
+  - Branch/Core (0.25.8)
+  - CardIO (5.4.1)
+  - Crashlytics (3.11.1):
+    - Fabric (~> 1.8.1)
+  - DeviceKit (1.10.0)
+  - Fabric (1.8.2)
+  - FacebookCore (0.5.0):
+    - Bolts (~> 1.9)
+    - FBSDKCoreKit (~> 4.37)
+  - FacebookLogin (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKLoginKit (~> 4.37)
+  - FacebookShare (0.5.0):
+    - Bolts (~> 1.9)
+    - FacebookCore (~> 0.5)
+    - FBSDKCoreKit (~> 4.37)
+    - FBSDKShareKit (~> 4.37)
+  - FBSDKCoreKit (4.38.1):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.38.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.38.1):
+    - FBSDKCoreKit
+  - Firebase/Core (5.12.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.3.0)
+  - Firebase/CoreOnly (5.12.0):
+    - FirebaseCore (= 5.1.7)
+  - Firebase/Messaging (5.12.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.2.1)
+  - FirebaseAnalytics (5.3.0):
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.3)
+    - GoogleAppMeasurement (~> 5.3)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.1.0)
+  - FirebaseCore (5.1.7):
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.3.0):
+    - FirebaseCore (~> 5.1)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+  - FirebaseMessaging (3.2.1):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.1)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Reachability (~> 5.2)
+    - Protobuf (~> 3.1)
+  - FLAnimatedImage (1.0.12)
+  - GoogleAppMeasurement (5.3.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - "GoogleUtilities/NSData+zlib (~> 5.2)"
+    - nanopb (~> 0.3)
+  - GoogleMaps (2.7.0):
+    - GoogleMaps/Maps (= 2.7.0)
+  - GoogleMaps/Base (2.7.0)
+  - GoogleMaps/Maps (2.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (2.7.0):
+    - GoogleMaps/Base (= 2.7.0)
+  - GoogleUtilities/AppDelegateSwizzler (5.3.4):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.3.4)
+  - GoogleUtilities/Logger (5.3.4):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.3.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.3.4):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (5.3.4)"
+  - GoogleUtilities/Reachability (5.3.4):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.3.4):
+    - GoogleUtilities/Logger
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
+  - Mixpanel-swift (2.5.5):
+    - Mixpanel-swift/Complete (= 2.5.5)
+  - Mixpanel-swift/Complete (2.5.5)
+  - Moya (11.0.2):
+    - Moya/Core (= 11.0.2)
+  - Moya/Core (11.0.2):
+    - Alamofire (~> 4.1)
+    - Result (~> 3.0)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - PhoneNumberKit (2.5.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 2.5.0)
+    - PhoneNumberKit/UIKit (= 2.5.0)
+  - PhoneNumberKit/PhoneNumberKitCore (2.5.0)
+  - PhoneNumberKit/UIKit (2.5.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - PINCache (2.3)
+  - PINRemoteImage (2.1.4):
+    - PINRemoteImage/FLAnimatedImage (= 2.1.4)
+  - PINRemoteImage/Core (2.1.4):
+    - PINCache (>= 2.1)
+  - PINRemoteImage/FLAnimatedImage (2.1.4):
+    - FLAnimatedImage (>= 1.0)
+    - PINRemoteImage/Core
+  - Protobuf (3.6.1)
+  - ReachabilitySwift (4.3.0)
+  - Result (3.2.4)
+  - SDWebImage (4.4.2):
+    - SDWebImage/Core (= 4.4.2)
+  - SDWebImage/Core (4.4.2)
+  - SMPageControl (1.2)
+  - SnapKit (4.2.0)
+  - Stripe (13.2.0)
+  - SwiftyBeaver (1.6.1)
+  - SwiftyJSON (4.2.0)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+  - UberCore (0.9.0)
+  - UberRides (0.9.0):
+    - UberCore
+  - VisualEffectView (3.1.0)
+  - ZendeskSDK (2.3.0):
+    - ZendeskSDK/Providers (= 2.3.0)
+    - ZendeskSDK/UI (= 2.3.0)
+  - ZendeskSDK/Core (2.3.0)
+  - ZendeskSDK/Providers (2.3.0):
+    - ZendeskSDK/Core
+  - ZendeskSDK/UI (2.3.0):
+    - ZendeskSDK/Core
+    - ZendeskSDK/Providers
+
+DEPENDENCIES:
+  - Branch
+  - CardIO
+  - Crashlytics
+  - DeviceKit
+  - Fabric
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlaces
+  - IGListKit
+  - Mixpanel-swift
+  - Moya
+  - PhoneNumberKit
+  - PINRemoteImage
+  - ReachabilitySwift
+  - SDWebImage
+  - SMPageControl
+  - SnapKit
+  - Stripe
+  - SwiftyBeaver
+  - SwiftyJSON
+  - TwitterKit
+  - UberCore (from `https://github.com/vriznychok/rides-ios-sdk.git`, branch `master`)
+  - UberRides (from `https://github.com/vriznychok/rides-ios-sdk.git`, branch `master`)
+  - VisualEffectView
+  - ZendeskSDK
+  - ZendeskSDK/Providers
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - Branch
+    - CardIO
+    - Crashlytics
+    - DeviceKit
+    - Fabric
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseAnalyticsInterop
+    - FirebaseCore
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FLAnimatedImage
+    - GoogleAppMeasurement
+    - GoogleMaps
+    - GooglePlaces
+    - GoogleUtilities
+    - IGListKit
+    - Mixpanel-swift
+    - Moya
+    - nanopb
+    - PhoneNumberKit
+    - PINCache
+    - PINRemoteImage
+    - Protobuf
+    - ReachabilitySwift
+    - Result
+    - SDWebImage
+    - SMPageControl
+    - SnapKit
+    - Stripe
+    - SwiftyBeaver
+    - SwiftyJSON
+    - TwitterCore
+    - TwitterKit
+    - VisualEffectView
+    - ZendeskSDK
+
+EXTERNAL SOURCES:
+  UberCore:
+    :branch: master
+    :git: https://github.com/vriznychok/rides-ios-sdk.git
+  UberRides:
+    :branch: master
+    :git: https://github.com/vriznychok/rides-ios-sdk.git
+
+CHECKOUT OPTIONS:
+  UberCore:
+    :commit: 0979196d249a2f0c31204d3f873595ac35a51308
+    :git: https://github.com/vriznychok/rides-ios-sdk.git
+  UberRides:
+    :commit: 0979196d249a2f0c31204d3f873595ac35a51308
+    :git: https://github.com/vriznychok/rides-ios-sdk.git
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Branch: bef2918a62f57ce284f4fa1917f5de1fb31295fe
+  CardIO: 56983b39b62f495fc6dae9ad7cf875143df06443
+  Crashlytics: ca7ab4bc304aa216bdc2e4c1a96389ee77252203
+  DeviceKit: 2a6cf0d1ec05e2ac7f9b24cdfdb3cb358900a247
+  Fabric: d2b22f443ba195d8a7cc204da230977c72733b40
+  FacebookCore: 74288d0add931d361b1596beae787ab72c438249
+  FacebookLogin: ebcf34714a1cb9f0759d9f071cfb01ed500996cf
+  FacebookShare: 963b4bb1124a64a395b1e428163d70b5774116e8
+  FBSDKCoreKit: 8d47857400e2f5bdea697a80daff882e91c84ef6
+  FBSDKLoginKit: 4621c690d9dd8628031a4791497062183ea34b0d
+  FBSDKShareKit: 6ffe22f0a0618eb7424d4104ab0ef3ce9643d42a
+  Firebase: 9190018e296139d938b99521cde0c15a6e8d2946
+  FirebaseAnalytics: 63202d2665de4e6adcbdce189135255d8b5962ba
+  FirebaseAnalyticsInterop: e5f21be9af6548372e2f0815834ff909bff395a2
+  FirebaseCore: 027d350adc039aa5483357c6f56556f117c5170e
+  FirebaseInstanceID: e2fa4cb35ef5558c200f7f0ad8a53e212215f93e
+  FirebaseMessaging: 0f14a264b0d7f867e8eff5d3556bc5d0d4e57888
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleAppMeasurement: 5029d78f2b438bd30ffb44e6c558b57c21622727
+  GoogleMaps: f79af95cb24d869457b1f961c93d3ce8b2f3b848
+  GooglePlaces: 3d06e6c99654545b4738ce49648745779c25f2ef
+  GoogleUtilities: abb092d2c12e817fa3e0e7b274987dd72fb86ec3
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
+  Mixpanel-swift: 92fd02942ef4bf5a1bd0630a88223a417b8c8b39
+  Moya: a725035953bc1c0eb1be505ab903984501d82440
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  PhoneNumberKit: 32a1cd1e0aa9e950feb01886a22fd7386b8cf903
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINRemoteImage: 4ac4011c5caefd6befd99758e09becede05d3226
+  Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: 624d6e296c69b244bcede364c72ae0430ac14681
+  SMPageControl: 922892813001cfaf059e86e6801f46a967e9ee29
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  Stripe: 2c69e216061d54d9c538204bb4f58bd597ddfc5b
+  SwiftyBeaver: ccfcdf85a04d429f1633f668650b0ce8020bda3a
+  SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+  UberCore: 89805fdd95ed9d2da27451a48c9375f88fe923a6
+  UberRides: 90b7d6f60d01f3afa6e797f58f3ccbde824f90bf
+  VisualEffectView: 922eedf8d7d7e776a367ac11e0a4d4a0b2ba3545
+  ZendeskSDK: af6509ad7968d367f95b2645713802712152f879
+
+PODFILE CHECKSUM: ccb7dc464b4e5ad2480ade717b49b3e905969b69
+
+COCOAPODS: 1.7.5

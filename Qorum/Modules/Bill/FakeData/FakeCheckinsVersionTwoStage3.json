@@ -1,0 +1,104 @@
+{
+    "billItems" : [
+                   {
+                   "name" : "Chips & Guac",
+                   "total_discount" : 0,
+                   "id" : 7745,
+                   "checkin_id" : 4882,
+                   "updated_at" : "2018-02-20T13:02:02.952Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2018-02-20T12:59:46.795Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 399
+                   },
+                   {
+                   "name" : "Bottle Beverage",
+                   "total_discount" : 0,
+                   "id" : 7746,
+                   "checkin_id" : 4882,
+                   "updated_at" : "2018-02-20T13:02:03.014Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2018-02-20T12:59:46.807Z",
+                   "description" : null,
+                   "quantity" : 2,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Chicken Burrito",
+                   "total_discount" : 0,
+                   "id" : 7748,
+                   "checkin_id" : 4882,
+                   "updated_at" : "2018-02-20T13:02:02.917Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2018-02-20T13:02:02.917Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 679
+                   },
+                   {
+                   "name" : "Chkn Quesadilla",
+                   "total_discount" : 0,
+                   "id" : 7749,
+                   "checkin_id" : 4882,
+                   "updated_at" : "2018-02-20T13:02:02.930Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2018-02-20T13:02:02.930Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 679
+                   },
+                   {
+                   "name" : "32 oz Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7750,
+                   "checkin_id" : 4882,
+                   "updated_at" : "2018-02-20T13:02:03.003Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2018-02-20T13:02:03.003Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 199
+                   }
+                   ],
+    
+    "totals" : {
+        "service_charges" : 0,
+        "updated_at" : "2018-02-20T13:02:03.133Z",
+        "undiscounted_sub_total" : 2294,
+        "num_free_drinks_used" : 0,
+        "paid" : 0,
+        "other_charges" : 0,
+        "tax" : 180,
+        "promotion_discount" : 918,
+        "approximateTax" : 108,
+        "id" : 4039,
+        "checkin_id" : 4882,
+        "sub_total" : 2294,
+        "created_at" : "2018-02-20T12:57:43.991Z",
+        "total" : 2474,
+        "due" : 2474,
+        "freedrinks_discount" : 0
+    },
+    
+    "ridesafeDiscountStatus" : {
+        "time" : {
+            "timePastFromFirstOrderInSecs" : 4920,
+            "ridesafeMinTimeSecs" : 0,
+            "timeLeftToRideDiscount" : 480
+        },
+        "isFreeRideAvailable" : false,
+        "minSpendToRideDiscount" : 0
+    },
+    
+    "rideDiscount" : {
+        "discount_value" : 10
+    },
+    
+    "exact_gratuity" : null,
+    
+    "gratuity" : 18,
+    
+    "discount" : 15
+}
+

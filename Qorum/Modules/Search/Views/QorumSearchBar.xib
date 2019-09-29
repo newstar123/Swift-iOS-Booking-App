@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-Regular.ttf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="QorumSearchBar" customModule="Qorum" customModuleProvider="target">
+            <connections>
+                <outlet property="cancelButton" destination="mBI-GF-uxz" id="9SS-g3-CCq"/>
+                <outlet property="locationButton" destination="uAR-IB-fkz" id="QeP-ac-IhC"/>
+                <outlet property="textField" destination="sjB-fC-0yJ" id="RUo-0y-mPT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="239" height="32"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Qlq-Kr-qC3">
+                    <rect key="frame" x="0.0" y="0.0" width="239" height="32"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ala-DW-kwm">
+                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="32"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" id="cec-Xe-86o"/>
+                            </constraints>
+                        </view>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SearchIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1f4-LP-ufg">
+                            <rect key="frame" x="8" y="0.0" width="16" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="4wB-Yo-Ihk"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Search" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="sjB-fC-0yJ">
+                            <rect key="frame" x="32" y="0.0" width="116" height="32"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="alert" returnKeyType="search" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
+                            <connections>
+                                <action selector="textFieldTextChanged" destination="-1" eventType="editingChanged" id="f1z-SX-ywy"/>
+                            </connections>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uAR-IB-fkz">
+                            <rect key="frame" x="156" y="0.0" width="16" height="32"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="16" id="e2r-t9-6F8"/>
+                            </constraints>
+                            <state key="normal" image="LocationIcon"/>
+                            <connections>
+                                <action selector="locationTapped" destination="-1" eventType="touchUpInside" id="NPf-X9-tii"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="1000" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBI-GF-uxz">
+                            <rect key="frame" x="180" y="0.0" width="51" height="32"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="12"/>
+                            <state key="normal" title="CANCEL"/>
+                            <connections>
+                                <action selector="cancel" destination="-1" eventType="touchUpInside" id="y5D-Ly-gCS"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jbw-Il-9ns">
+                            <rect key="frame" x="239" y="0.0" width="0.0" height="32"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" id="yYP-Jb-AnU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <color key="tintColor" red="0.0" green="0.69803921568627447" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="Qlq-Kr-qC3" secondAttribute="trailing" id="C8l-B9-kfQ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Qlq-Kr-qC3" secondAttribute="bottom" id="CBs-E3-CnJ"/>
+                <constraint firstItem="Qlq-Kr-qC3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="RiH-cD-QU0"/>
+                <constraint firstItem="Qlq-Kr-qC3" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="fTU-Lo-KlV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="157.5" y="-219"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="LocationIcon" width="16" height="16"/>
+        <image name="SearchIcon" width="16" height="16"/>
+    </resources>
+</document>

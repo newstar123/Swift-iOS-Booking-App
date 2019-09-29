@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Beacons Onboarding View Controller-->
+        <scene sceneID="6rK-zU-egL">
+            <objects>
+                <viewController storyboardIdentifier="BeaconsOnboardingViewController" id="Vp7-iG-ZE7" customClass="BeaconsOnboardingViewController" customModule="Qorum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ibN-3H-wb4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't leave your tab hangin'!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="7Ac-xz-6oS">
+                                <rect key="frame" x="40" y="25" width="240" height="64.5"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auto-checkin lets you seamlessly manage your tab" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JdO-Rc-pkM">
+                                <rect key="frame" x="40" y="94.5" width="240" height="39.5"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="7Ac-xz-6oS" firstAttribute="leading" secondItem="82t-Lq-YoA" secondAttribute="leading" constant="40" id="7Rl-cq-fQl"/>
+                            <constraint firstItem="JdO-Rc-pkM" firstAttribute="leading" secondItem="82t-Lq-YoA" secondAttribute="leading" constant="40" id="V2g-EU-ZHb"/>
+                            <constraint firstItem="JdO-Rc-pkM" firstAttribute="top" secondItem="7Ac-xz-6oS" secondAttribute="bottom" constant="5" id="VLh-AJ-uI2"/>
+                            <constraint firstItem="7Ac-xz-6oS" firstAttribute="top" secondItem="82t-Lq-YoA" secondAttribute="top" constant="5" id="bJu-tR-Eh7"/>
+                            <constraint firstItem="82t-Lq-YoA" firstAttribute="trailing" secondItem="7Ac-xz-6oS" secondAttribute="trailing" constant="40" id="geX-Xa-gWr"/>
+                            <constraint firstItem="JdO-Rc-pkM" firstAttribute="centerY" secondItem="ibN-3H-wb4" secondAttribute="centerY" constant="-170" id="uYK-cq-yO7"/>
+                            <constraint firstAttribute="trailing" secondItem="JdO-Rc-pkM" secondAttribute="trailing" constant="40" id="vt0-XO-HIh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="82t-Lq-YoA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Aej-Zb-zN5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="74" y="139"/>
+        </scene>
+        <!--Beacons OnboardingBAR Check View Controller-->
+        <scene sceneID="dff-xV-XMh">
+            <objects>
+                <viewController storyboardIdentifier="BeaconsOnboardingBARCheckViewController" id="hZO-UZ-J7k" customClass="BeaconsOnboardingBARCheckViewController" customModule="Qorum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kkc-A6-UAi">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rQj-Md-13v">
+                                <rect key="frame" x="16" y="419" width="288" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.69803921568627447" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="ysg-A0-lhL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Got It">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="back" destination="hZO-UZ-J7k" eventType="touchUpInside" id="VD7-ae-2p9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="One last thing!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="KqW-vM-Xe3">
+                                <rect key="frame" x="20" y="23" width="280" height="43"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="8" translatesAutoresizingMaskIntoConstraints="NO" id="Z0b-de-S39">
+                                <rect key="frame" x="20" y="96" width="280" height="293"/>
+                                <string key="text">Make sure that Background App Refresh is on so that Qorum's automatic tab opening and closing features can work even when the Qorum app is backgrounded. This also helps send you updates about your current tab.
+
+Go to Settings &gt; General &gt; Background App Refresh and check that it says "On".
+
+Note: Background App Refresh might be off if you're on "Low Power Mode".</string>
+                                <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ddk-qK-00m">
+                                <rect key="frame" x="16" y="489" width="288" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.69803921570000005" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="Ais-dU-niz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Update My Settings">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="openSettings" destination="hZO-UZ-J7k" eventType="touchUpInside" id="qsO-dX-eQV"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <constraints>
+                            <constraint firstItem="Z0b-de-S39" firstAttribute="top" secondItem="KqW-vM-Xe3" secondAttribute="bottom" constant="30" id="3mm-e8-ZUM"/>
+                            <constraint firstItem="rQj-Md-13v" firstAttribute="centerY" secondItem="kkc-A6-UAi" secondAttribute="centerY" constant="160" id="40T-UL-pyb"/>
+                            <constraint firstAttribute="trailing" secondItem="Z0b-de-S39" secondAttribute="trailing" constant="20" id="8Uq-f3-AWi"/>
+                            <constraint firstItem="ddk-qK-00m" firstAttribute="top" secondItem="rQj-Md-13v" secondAttribute="bottom" constant="20" id="PG5-MF-oGs"/>
+                            <constraint firstItem="KqW-vM-Xe3" firstAttribute="centerX" secondItem="kkc-A6-UAi" secondAttribute="centerX" id="Thx-qP-EWS"/>
+                            <constraint firstAttribute="trailing" secondItem="KqW-vM-Xe3" secondAttribute="trailing" constant="20" id="VQ5-X4-UPw"/>
+                            <constraint firstItem="16r-b4-mPV" firstAttribute="trailing" secondItem="rQj-Md-13v" secondAttribute="trailing" constant="16" id="XN4-SD-q0H"/>
+                            <constraint firstItem="Z0b-de-S39" firstAttribute="leading" secondItem="kkc-A6-UAi" secondAttribute="leading" constant="20" id="acm-Sx-7OL"/>
+                            <constraint firstAttribute="trailing" secondItem="ddk-qK-00m" secondAttribute="trailing" constant="16" id="d12-18-Wg7"/>
+                            <constraint firstItem="rQj-Md-13v" firstAttribute="leading" secondItem="16r-b4-mPV" secondAttribute="leading" constant="16" id="fYD-tE-5kv"/>
+                            <constraint firstItem="rQj-Md-13v" firstAttribute="centerX" secondItem="kkc-A6-UAi" secondAttribute="centerX" id="m6N-ZC-JgE"/>
+                            <constraint firstItem="rQj-Md-13v" firstAttribute="top" secondItem="Z0b-de-S39" secondAttribute="bottom" constant="30" id="nX5-qj-4TN"/>
+                            <constraint firstItem="KqW-vM-Xe3" firstAttribute="top" relation="greaterThanOrEqual" secondItem="kkc-A6-UAi" secondAttribute="top" constant="10" id="pca-UW-bKC"/>
+                            <constraint firstItem="KqW-vM-Xe3" firstAttribute="leading" secondItem="kkc-A6-UAi" secondAttribute="leading" constant="20" id="siT-iU-nKR"/>
+                            <constraint firstItem="ddk-qK-00m" firstAttribute="leading" secondItem="16r-b4-mPV" secondAttribute="leading" constant="16" id="ukr-nY-L25"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="16r-b4-mPV"/>
+                    </view>
+                    <connections>
+                        <outlet property="infoLabel" destination="Z0b-de-S39" id="BAa-IV-fbS"/>
+                        <outlet property="settingsButton" destination="ddk-qK-00m" id="jkj-e7-9iT"/>
+                        <outlet property="titleLabel" destination="KqW-vM-Xe3" id="cJ5-wU-4Nn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YzE-6W-HXW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="832.79999999999995" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

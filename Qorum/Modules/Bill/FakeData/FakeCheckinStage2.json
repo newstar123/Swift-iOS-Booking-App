@@ -1,0 +1,127 @@
+{
+    "billItems" : [
+                   {
+                   "name" : "Tres Leches",
+                   "total_discount" : 0,
+                   "id" : 7130,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.195Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.938Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 299
+                   },
+                   {
+                   "name" : "32 oz Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7131,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.197Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.941Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 199
+                   },
+                   {
+                   "name" : "Chips & Salsa",
+                   "total_discount" : 0,
+                   "id" : 7132,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.199Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.943Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 199
+                   },
+                   {
+                   "name" : "Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7133,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.200Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.947Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Soft Drink",
+                   "total_discount" : 0,
+                   "id" : 7134,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.202Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.949Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Bottle Beverage",
+                   "total_discount" : 0,
+                   "id" : 7135,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.204Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.951Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 169
+                   },
+                   {
+                   "name" : "Sweet Tortilla",
+                   "total_discount" : 0,
+                   "id" : 7136,
+                   "checkin_id" : 3975,
+                   "updated_at" : "2017-12-08T15:17:58.205Z",
+                   "num_free_drinks_used" : 0,
+                   "created_at" : "2017-12-08T15:17:51.953Z",
+                   "description" : null,
+                   "quantity" : 1,
+                   "price_per_unit" : 79
+                   }
+                   ],
+    
+    "totals" : {
+        "service_charges" : 0,
+        "updated_at" : "2017-12-08T15:17:58.227Z",
+        "undiscounted_sub_total" : 1283,
+        "num_free_drinks_used" : 0,
+        "paid" : 0,
+        "other_charges" : 0,
+        "tax" : 101,
+        "promotion_discount" : 192,
+        "approximateTax" : 86,
+        "id" : 3132,
+        "checkin_id" : 3975,
+        "sub_total" : 1283,
+        "created_at" : "2017-12-08T15:13:56.927Z",
+        "total" : 1384,
+        "due" : 1384,
+        "freedrinks_discount" : 0
+    },
+    
+    "ridesafeDiscountStatus" : {
+        "time" : {
+            "timePastFromFirstOrderInSecs" : 2700,
+            "ridesafeMinTimeSecs" : 0,
+            "timeLeftToRideDiscount" : 2700
+        },
+        "isFreeRideAvailable" : false,
+        "minSpendToRideDiscount" : 5400
+    },
+    
+    "rideDiscount" : {
+        "discount_value" : 10
+    },
+    
+    "exact_gratuity" : null,
+    
+    "gratuity" : 18,
+    
+    "discount" : 15
+}

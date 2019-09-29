@@ -1,0 +1,44 @@
+{
+    "billItems" : [
+    
+    ],
+    
+    "totals" : {
+        "service_charges" : 0,
+        "updated_at" : "2017-12-08T15:16:18.951Z",
+        "undiscounted_sub_total" : 0,
+        "num_free_drinks_used" : 0,
+        "paid" : 0,
+        "other_charges" : 0,
+        "tax" : 0,
+        "promotion_discount" : 0,
+        "approximateTax" : 0,
+        "id" : 3132,
+        "checkin_id" : 3975,
+        "sub_total" : 0,
+        "created_at" : "2017-12-08T15:13:56.927Z",
+        "total" : 0,
+        "due" : 0,
+        "freedrinks_discount" : 0
+    },
+    
+    "ridesafeDiscountStatus" : {
+        "time" : {
+            "timePastFromFirstOrderInSecs" : 0,
+            "ridesafeMinTimeSecs" : 0,
+            "timeLeftToRideDiscount" : 5400
+        },
+        "isFreeRideAvailable" : false,
+        "minSpendToRideDiscount" : 5400
+    },
+    
+    "rideDiscount" : {
+        "discount_value" : 10
+    },
+    
+    "exact_gratuity" : null,
+    
+    "gratuity" : 18,
+    
+    "discount" : 15
+}

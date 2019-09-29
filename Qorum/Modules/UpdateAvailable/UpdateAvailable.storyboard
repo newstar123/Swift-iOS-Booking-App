@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.ttf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-Medium.ttf">
+            <string>Montserrat-Medium</string>
+        </array>
+        <array key="Montserrat-SemiBold.ttf">
+            <string>Montserrat-SemiBold</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Update Available View Controller-->
+        <scene sceneID="Nrf-m8-3EL">
+            <objects>
+                <viewController storyboardIdentifier="UpdateAvailableViewController" id="8Wv-yk-juQ" customClass="UpdateAvailableViewController" customModule="Qorum" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bKL-m1-Ead">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3dy-M8-Y8m">
+                                <rect key="frame" x="15" y="188.5" width="345" height="290"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time to Update!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1CH-1Z-O0h">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="32"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="26"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Looks like you've got an out-dated version of the Qorum app." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FSR-vW-XLj">
+                                        <rect key="frame" x="15" y="67" width="315" height="39.5"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QdA-v8-MLJ">
+                                        <rect key="frame" x="0.0" y="240" width="345" height="50"/>
+                                        <color key="backgroundColor" red="0.0083144297823309898" green="0.69826459884643555" blue="0.87312227487564087" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="yP6-Qt-JDv"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Montserrat-Medium" family="Montserrat" pointSize="14"/>
+                                        <state key="normal" title="UPDATE QORUM"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="5"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="updateButtonTapped:" destination="8Wv-yk-juQ" eventType="touchUpInside" id="rbl-In-6Ad"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="r23-5M-wKQ">
+                                        <rect key="frame" x="15" y="126.5" width="315" height="78.5"/>
+                                        <string key="text">Please go to the app store and update to the latest version to get all the new features and bug fixes to keep your app running smoothly.</string>
+                                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="QdA-v8-MLJ" firstAttribute="leading" secondItem="3dy-M8-Y8m" secondAttribute="leading" id="8vE-f4-4UN"/>
+                                    <constraint firstItem="r23-5M-wKQ" firstAttribute="leading" secondItem="3dy-M8-Y8m" secondAttribute="leading" constant="15" id="Bwm-oy-PFZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="1CH-1Z-O0h" secondAttribute="trailing" id="MjM-AI-7Jo"/>
+                                    <constraint firstItem="1CH-1Z-O0h" firstAttribute="leading" secondItem="3dy-M8-Y8m" secondAttribute="leading" id="Mvv-4F-gQl"/>
+                                    <constraint firstItem="r23-5M-wKQ" firstAttribute="top" secondItem="FSR-vW-XLj" secondAttribute="bottom" constant="20" id="OvL-NN-xWJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="r23-5M-wKQ" secondAttribute="trailing" constant="15" id="UHw-KA-FQD"/>
+                                    <constraint firstAttribute="bottom" secondItem="QdA-v8-MLJ" secondAttribute="bottom" id="Xyf-mx-fB5"/>
+                                    <constraint firstAttribute="trailing" secondItem="QdA-v8-MLJ" secondAttribute="trailing" id="cKQ-Ib-PLT"/>
+                                    <constraint firstItem="FSR-vW-XLj" firstAttribute="leading" secondItem="3dy-M8-Y8m" secondAttribute="leading" constant="15" id="cWD-3k-jaL"/>
+                                    <constraint firstItem="FSR-vW-XLj" firstAttribute="top" secondItem="1CH-1Z-O0h" secondAttribute="bottom" constant="35" id="dpi-Vw-pPM"/>
+                                    <constraint firstItem="QdA-v8-MLJ" firstAttribute="top" secondItem="r23-5M-wKQ" secondAttribute="bottom" constant="35" id="kPs-81-twQ"/>
+                                    <constraint firstItem="1CH-1Z-O0h" firstAttribute="top" secondItem="3dy-M8-Y8m" secondAttribute="top" id="lfO-eD-DNb"/>
+                                    <constraint firstAttribute="trailing" secondItem="FSR-vW-XLj" secondAttribute="trailing" constant="15" id="nps-na-167"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3dy-M8-Y8m" firstAttribute="leading" secondItem="bKL-m1-Ead" secondAttribute="leading" constant="15" id="A3b-zw-tt4"/>
+                            <constraint firstItem="3dy-M8-Y8m" firstAttribute="centerY" secondItem="bKL-m1-Ead" secondAttribute="centerY" id="bX7-LC-zgj"/>
+                            <constraint firstAttribute="trailing" secondItem="3dy-M8-Y8m" secondAttribute="trailing" constant="15" id="i65-8f-MF9"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="hVg-bQ-Daj"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fKh-ud-531" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-4" y="142.57871064467767"/>
+        </scene>
+    </scenes>
+</document>
